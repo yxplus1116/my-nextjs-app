@@ -66,7 +66,7 @@ export default function Home() {
           但是到他自己身上的感情真的太坎坷了…<br />
           他既乐观又悲观生活也一无是处我很想找到...<br />
           救赎他的办法。<br />
-          到头来..<br />
+          到头来...<br />
           你看他们都在幸福啊而你呢？
         </div>
         <ToggleGroup type="multiple" defaultValue={['chao', 'jxy']}>
