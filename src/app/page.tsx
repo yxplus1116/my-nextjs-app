@@ -69,12 +69,15 @@ export default function Home() {
           到头来...<br />
           你看他们都在幸福啊而你呢？
         </div>
-        <ToggleGroup type="multiple" defaultValue={['chao', 'jxy']}>
-            <ToggleGroupItem value="chao" aria-label="Toggle chao" >
-              <code>@好兄弟超</code>
+        <ToggleGroup type="multiple" defaultValue={['one', 'two', 'three']}>
+            <ToggleGroupItem value="one" aria-label="Toggle one" >
+              <code>有要爱的人</code>
             </ToggleGroupItem>
-            <ToggleGroupItem value="jxy" aria-label="Toggle jxy" >
-              <code>@好兄弟姜欣雨</code>
+            <ToggleGroupItem value="two" aria-label="Toggle two" >
+              <code>有要做的事</code>
+          </ToggleGroupItem>
+          <ToggleGroupItem value="three" aria-label="Toggle three" >
+              <code>有寄予希望的东西</code>
             </ToggleGroupItem>
           </ToggleGroup>
         {/* 斜体加粗 */}
