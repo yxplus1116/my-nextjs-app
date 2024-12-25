@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "雨下整夜",
+  title: "倒霉熊",
   description: "我的世界总是下着雨",
 };
 

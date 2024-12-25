@@ -88,7 +88,7 @@ export default function Home() {
             onClick={() => {
               toast({
                 title: "Uh oh! Something went wrong.",
-                description: "别气妥.在慢慢迷失的黑夜里 每个人最后都要说再见.",
+                description: "不如不相见.",
               })
             }}
           >
@@ -105,7 +105,7 @@ export default function Home() {
             <DialogTrigger asChild>
               <Button
                 variant="secondary"
-              >我想向你倾诉我的烦恼</Button>
+              >我想宣泄我的烦恼</Button>
             </DialogTrigger>
             <DialogContent className="sm:max-w-md">
               <DialogHeader>
@@ -122,7 +122,7 @@ export default function Home() {
               <DialogFooter className="justify-start">
                 <DialogClose asChild>
                   <Button type="submit" variant="secondary">
-                    向你倾诉
+                    向你宣泄
                   </Button>
                 </DialogClose>
               </DialogFooter>
