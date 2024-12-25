@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
+
 import {
   Dialog,
   DialogClose,
@@ -70,16 +71,16 @@ export default function Home() {
           你看他们都在幸福啊而你呢？
         </div>
         <ToggleGroup type="multiple" defaultValue={['one', 'two', 'three']}>
-            <ToggleGroupItem value="one" aria-label="Toggle one" >
-              <code>有要爱的人</code>
-            </ToggleGroupItem>
-            <ToggleGroupItem value="two" aria-label="Toggle two" >
-              <code>有要做的事</code>
+          <ToggleGroupItem value="one" aria-label="Toggle one" >
+            <code>有要爱的人</code>
+          </ToggleGroupItem>
+          <ToggleGroupItem value="two" aria-label="Toggle two" >
+            <code>有要做的事</code>
           </ToggleGroupItem>
           <ToggleGroupItem value="three" aria-label="Toggle three" >
-              <code>有寄予希望的东西</code>
-            </ToggleGroupItem>
-          </ToggleGroup>
+            <code>有寄予希望的东西</code>
+          </ToggleGroupItem>
+        </ToggleGroup>
         {/* 斜体加粗 */}
         <div className="underline underline-offset-2 font-bold italic list-inside list-decimal text-base text-center sm:text-left font-[family-name:var(--font-geist-sans)]">时至如今 我非常讨厌和反感不真诚的人</div>
 
@@ -117,6 +118,12 @@ export default function Home() {
               <div className="flex items-center space-x-2">
                 <div className="grid flex-1 gap-2">
                   <Input id="link" />
+                  <Image
+                    src="/wechat.jpg"  // 图片路径
+                    alt="描述文本"                  // 图片的替代文本
+                    width={500}                    // 图片宽度
+                    height={300}                   // 图片质量（可选）
+                  />
                 </div>
               </div>
               <DialogFooter className="justify-start">
@@ -128,7 +135,7 @@ export default function Home() {
               </DialogFooter>
             </DialogContent>
           </Dialog>
-        
+
 
           {/* <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
