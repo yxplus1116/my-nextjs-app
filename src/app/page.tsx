@@ -109,7 +109,7 @@ export default function Home() {
             </DialogTrigger>
             <DialogContent className="sm:max-w-md">
               <DialogHeader>
-                <DialogTitle>不如在这里写出你的烦恼</DialogTitle>
+                <DialogTitle>写出你的烦恼</DialogTitle>
                 <DialogDescription>
                   每个人的世界都会下雨 总有一把伞是为你而撑
                 </DialogDescription>
@@ -122,7 +122,7 @@ export default function Home() {
               <DialogFooter className="justify-start">
                 <DialogClose asChild>
                   <Button type="submit" variant="secondary">
-                    向你宣泄
+                    我要宣泄
                   </Button>
                 </DialogClose>
               </DialogFooter>
