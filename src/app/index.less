@@ -1,0 +1,32 @@
+.sentences_item {
+  opacity: 0;
+  /* 初始状态下不可见 */
+  // transform: translateY(20px);
+  top: -20px;
+  /* 初始状态下稍微向下偏移 */
+  animation: fadeInUp 0.6s forwards;
+  /* 应用动画效果 */
+  animation-delay: calc(0.08s * var(--i));
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -20px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
