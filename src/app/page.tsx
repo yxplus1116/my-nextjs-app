@@ -23,7 +23,7 @@ import { Input } from '@/components/ui/input'
 import { useToast } from "@/hooks/use-toast"
 
 export default function Home() {
-  const { toast } = useToast()
+  // const { toast } = useToast()
   const sentences = [
     "我有一个朋友他是个奇怪的人",
     "每天看起来挺开心的",
